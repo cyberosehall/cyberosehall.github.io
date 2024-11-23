@@ -1,0 +1,117 @@
+body {
+    background: rgb(218, 255, 186);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgb(230, 255, 186);
+    background-image: url(images/background\ 1.jpg);
+    background-size: 100%;
+    background-position: center;
+    padding: 5px;
+    height: 100px;
+}
+
+
+h2 {
+    text-align: center;
+    background-color: rgb(98, 113, 43);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    color: white
+}
+
+
+.logo a {
+    background-image: url("images/logo\ 2.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    text-indent: -9999999px;
+}
+
+
+li.link {
+    position: relative;
+    top: 25px;
+}
+
+
+.adoptables {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+
+.adoptables figure {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 15;
+}
+
+
+.adoptables figure img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: gray 0 0 10px;
+    border: 1px solid white;
+}
+
+
+.wallace {
+    object-position: 80%;
+}
+
+
+nav ul li {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 780px) {
+    .link {
+        width: 200px;
+        margin-top: -10px;
+    }
+    .logo {
+        top: -5px;
+    }
+    .snuggles {
+        margin-right: 25px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 14);
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: rgb(44, 44, 44);
+    padding: 20px;
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+}
